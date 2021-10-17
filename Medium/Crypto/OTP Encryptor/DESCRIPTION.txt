@@ -1,0 +1,11 @@
+So many websites need One Time Pin, but Darren Snutz thought better.
+With just two numbers and a secret password, you can now share, encrypt and decrypt your one time pin.
+Try Darren Snutz's one time pin encryptor today!
+
+`nc 167.172.70.187 1342`
+
+Mirror:
+
+`nc 165.232.173.222 1342`
+
+Author: Sean

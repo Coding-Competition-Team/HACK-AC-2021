@@ -1,0 +1,7 @@
+Try out this quiz! Can you get it right?
+
+[https://www.quiz-maker.com/QR24MF5Z6](https://www.quiz-maker.com/QR24MF5Z6)
+
+Note: This is a **REAL** website. Only the exact page linked is within scope. Do NOT try to attack the server of the website. Only consider the page that was linked and derive the flag from there.
+
+Author: Lord_Idiot

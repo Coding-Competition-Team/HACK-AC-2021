@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Docker Nginx</title>
+</head>
+<body>
+  <h2>Welcome to my login page</h2>
+  <p>The Javascript verified passowrd is so long you will never be able to guess it muahahaha!</p>
+  <form id="form" action="/form.html" method="GET">
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="text">
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Javascript verfication (Do not show to user) -->
+  <script>
+    const form = document.getElementById("form");
+    const password = document.getElementById("password");
+
+    form.addEventListener('submit', (e) => {
+      if(password.value.length == 26
+      && password.value[0] == 'A'
+      && password.value[1] == 'C'
+      && password.value[2] == 'S'
+      && password.value[3] == 'I'
+      && password.value[4] == '{'
+      && password.value[5] == 'D'
+      && password.value[6] == '0'
+      && password.value[7] == 'w'
+      && password.value[8] == 'n'
+      && password.value[9] == '_'
+      && password.value[10] == 'w'
+      && password.value[11] == '1'
+      && password.value[12] == 't'
+      && password.value[13] == 'h'
+      && password.value[14] == '_'
+      && password.value[15] == 't'
+      && password.value[16] == 'h'
+      && password.value[17] == '3'
+      && password.value[18] == '_'
+      && password.value[19] == 'b'
+      && password.value[20] == '4'
+      && password.value[21] == 's'
+      && password.value[22] == '1'
+      && password.value[23] == 'c'
+      && password.value[24] == '5'
+      && password.value[25] == '}') {
+        alert("You got the flag!");
+      }
+      else alert("I told you guessing wont do the trick :)");
+    });
+  </script>
+</body>
+</html>

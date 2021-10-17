@@ -1,0 +1,11 @@
+The secret files were great, but they were incomplete. I managed to find his amazon data, but the last two characters of the Access Key are missing..
+
+```
+Region: us-east-1
+Access Key ID: AKIARKFM6I6QZIHAO5
+Secret Key: 6i1Q+GXXh7bYq51HNw6ICvSoFrLCKCs3Wve+Oq0O
+```
+
+Note: The flag is the correct valid AWS Key ID. For example, if the AWS Key ID is: ABCDEFG, the flag is ACSI{ABCDEFG}
+
+Author: Teck Yong

@@ -1,0 +1,20 @@
+So... John (aka horlicks truck) downloaded 16GB of ram from the internet....
+Evidently, that went wrong. Very wrong. Now we need your help to answer the following questions.
+
+1) What is his PC password
+2) What is his default browser
+3) What is the name of the deleted Executable (exe) file
+4) What is the name of the virus on his laptop
+
+**Flag format: ACSI{password_default-browser_name-of-file_virus-name}**
+
+**Note that the answers to question 1-4 should be in lowercase.**
+
+
+For example, if his password is abc123, his default browser is Chrome, the name of the file is xyz.exe, and the virus is CryptoLocker, the flag will be:
+ACSI{abc123_chrome_xyz.exe_cryptolocker}
+
+
+**WARNING: There are real samples of malware inside this challenge, please do not run any of the executables on your laptop.**
+
+Author: Sean

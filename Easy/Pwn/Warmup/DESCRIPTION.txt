@@ -1,0 +1,9 @@
+Mr Dunning Kruger has known nothing before he started to climb Mt Stupid, after which he felt amazing! Try to get the flag he placed on the Mount's peak.
+
+`nc 178.128.85.118 1337`
+
+Mirror:
+
+`nc 165.232.173.222 1337`
+
+Author: Lam

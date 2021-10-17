@@ -1,0 +1,7 @@
+Pappardelle is the traditional Italian word for long noodles, normally made in one length, twisted together to resemble the outline of a pennant.
+
+It is a simple but special dish to make.
+
+Analyze the code, find the flag, and all shall make sense.
+
+Author: Bennett

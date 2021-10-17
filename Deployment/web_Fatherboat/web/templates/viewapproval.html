@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="pane">
+    <div class="text">
+        Title: {{ title|safe }} <br>
+        Your story: {{ story|safe }} <br>
+        The admin will check out your story shortly.
+    </div>
+</div>
+{% endblock %}

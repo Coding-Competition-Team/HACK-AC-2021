@@ -1,0 +1,13 @@
+We are a coalition of individuals who resist sour
+apples, as they are gross.
+
+As part of your Cryptography training, you have
+been provided a flag encrypted in our signature
+RSA encryption scheme.
+
+Your mission, should you choose to accept it, is
+to find the vulnerability, decipher the
+ciphertext, and send us the flag as proof that you
+have completed the challenge.
+
+Author: Bennett

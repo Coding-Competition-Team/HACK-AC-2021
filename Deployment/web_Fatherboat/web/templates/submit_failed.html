@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="pane">
+    <div class="text">
+        <p> Sorry, you don't have admin access. Please resubmit your story to get an admin to approve it! </p>
+    </div>
+    <div class="submit">
+        <form action="/approve" method="post">
+            <textarea name="title" placeholder="Title">{{title}}</textarea><br><br>
+            <textarea name="story" placeholder="Your story here...">{{story}}</textarea><br><br>
+            <input type="submit" value="Approve your story">
+        </form>
+    </div>
+</div>
+{% endblock %}

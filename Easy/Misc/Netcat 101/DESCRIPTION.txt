@@ -1,0 +1,9 @@
+Netcat 101
+
+Can you cat the flag out of the netcat???
+
+`nc 178.128.85.118 1343`
+
+Mirror:
+
+`nc 165.232.173.222 1343`

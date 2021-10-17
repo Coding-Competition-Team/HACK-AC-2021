@@ -1,0 +1,26 @@
+Now that we have established your skills, this
+time round, we would like to see if you can find
+any vulnerability with our new encryption method.
+
+One of our members have come up with a new method
+of encrypting data using our signature RSA
+encryption scheme and the "Binomial Theorem", as
+detailed in the "encryptor.py" script attached.
+
+It randomly generates 3 small integers, a, b, and
+c, and uses them to generate n. That way, our
+members can easily derive the public key used in 
+our secret communications by just remembering 3
+small integers.
+
+We believe that the encryption method is
+fool-proof, but just in case, we would like you to
+take a look.
+
+We have encrypted a flag, and provided the various
+parameters in the "enc" file attached. If you are
+able to crack our encryption method, please send 
+us the flag as proof that our encryption method is
+insecure. Good Luck!
+
+Author: Bennett

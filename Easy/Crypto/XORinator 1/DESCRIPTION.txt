@@ -1,0 +1,15 @@
+Ahh, I see you got stuck in my CTF, Marcus the duck.
+
+Just in time to witness by latest invention - the XORinator!
+
+It can encode any message and with a secret key...
+
+Mwahahaha! Nobody can read my secret messages now...
+
+In fact, I'm so sure that it's secure, that I'll even give you a hint.
+
+The secret key is 8 bytes long... haha!
+
+Let's see if you can decode my message to get the flag!
+
+Author: Bennett

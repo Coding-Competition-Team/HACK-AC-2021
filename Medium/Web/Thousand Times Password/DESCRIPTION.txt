@@ -1,0 +1,9 @@
+Shui is a lazy dev. He often leaves important data lying around out of convenience. But he thinks it's ok since he has already implemented 2FA. After all, 2FA is super secure right?
+
+[http://165.22.52.2/login.php](http://165.22.52.2/login.php)
+
+Mirror:
+
+[http://128.199.121.110/login.php](http://128.199.121.110/login.php)
+
+Author: River

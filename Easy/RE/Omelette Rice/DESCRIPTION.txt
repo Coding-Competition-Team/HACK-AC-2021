@@ -1,0 +1,7 @@
+The path to hacking stardom begins with assembly!
+
+Give it your best shot: [here!](https://omu.rce.so/acs-ctf)
+
+Note: Each sub-challenge will give you 1/3 of the flag, combine them for the full flag.
+
+Author: Lord_Idiot & daniellimws

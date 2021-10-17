@@ -1,0 +1,9 @@
+After being told about the problems with his otp login, Shui came up with a way to improve its security. Just add more digits... Typical ABC... Now he is sure that his login is secure. Could there be a way around it?
+
+[http://157.245.151.46/login.php](http://157.245.151.46/login.php)
+
+Mirror:
+
+[http://157.245.60.241/login.php](http://157.245.60.241/login.php)
+
+Author: River

@@ -1,0 +1,9 @@
+GCC said gets() is insecure, so using fgets() should be fine right?. Well anyway, I added a stack canary to take care of all those silly buffer overflows.
+
+`nc 178.128.85.118 1339`
+
+Mirror:
+
+`nc 165.232.173.222 1339`
+
+Author: Sean

@@ -1,0 +1,9 @@
+GCC said gets() is insecure, so now I've decided to use read(). What could go wrong???
+
+`nc 178.128.85.118 1340`
+
+Mirror:
+
+`nc 165.232.173.222 1340`
+
+Author: Sean

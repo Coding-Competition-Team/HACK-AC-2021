@@ -1,0 +1,29 @@
+FROM ubuntu:20.04
+ENV user user
+ENV TERM xterm
+ENV COLUMNS 120
+ENV LINES 28
+
+# Run Updates
+RUN apt-get -y update
+RUN apt-get install -y socat
+RUN apt-get install -y ucspi-tcp
+
+# Create User
+RUN useradd -m $user
+WORKDIR /home/$user
+
+# Set Files
+ADD chal /home/$user/
+ADD scoreboard /home/$user/scoreboard
+
+RUN rm -rf /home/$user/.bashrc /home/$user/.profile /home/$user/.bash_logout
+RUN ls -al /home/$user
+
+RUN chmod -R 555 /home/$user && \
+    chmod 111 /home/$user/get_flag && \
+    chmod 777 /home/$user/scoreboard
+
+CMD socat -dd TCP4-LISTEN:4567,fork,reuseaddr EXEC:/home/$user/log,pty,echo=0,raw,iexten=0
+USER $user
+EXPOSE 4567

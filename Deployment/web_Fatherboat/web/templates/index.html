@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="pane">
+  <div class="text">
+    <p> Hello! Welcome to Fatherboat! We are an independent news website that strives to bring to you the purest form of news. Made by news enthusiasts, for news enthusiasts. Try submitting a story!</p>
+  </div>
+  <div class="submit">
+    <form action="/submit" method="get">
+      <textarea name="title" placeholder="Title"></textarea><br><br>
+      <textarea name="story" placeholder="Your story here..."></textarea><br><br>
+      <input type="submit" value="Submit a story!">
+    </form>
+  </div>
+</div>
+{% endblock %}

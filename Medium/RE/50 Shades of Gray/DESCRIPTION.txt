@@ -1,0 +1,4 @@
+I was bored, so I created a simple image viewer to help everyone view their beautiful images. 
+It's just an image viewer, nothing more, I swear!
+
+Author: MiloTruck

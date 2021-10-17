@@ -1,0 +1,9 @@
+services:
+  web:
+    build: ./web
+    ports:
+      - "51000:51000"
+    restart: always
+  puppet:
+    build: ./puppet
+    restart: always

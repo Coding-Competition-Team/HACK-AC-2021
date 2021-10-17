@@ -1,0 +1,57 @@
+Welcome to the ArCade! Let's play some Tic Tac Toe :)
+
+`ssh play@178.128.85.118 -p 31337`
+
+Mirror:
+
+`ssh play@165.232.173.222 -p 31337`
+
+Author: Lord_Idiot
+
+Note: The bug is a out of bound write (<https://cwe.mitre.org/data/definitions/787.html>).
+
+```c
+void get_move(int *_x, int *_y, char board[3][3], WINDOW * gamewin){
+
+    while(1){
+        if((ch = getch()) == ERR){}
+        else if (ch == '\n') {
+            if( board[x][y] != 'X' &&
+                board[x][y] != 'O') {
+		// Notice that we can control x and y here
+		// by using our arrow keys accordingly
+		// we can make x and y become values that go
+		// beyond the board array!
+		//
+		// this could let us control other variables
+                board[x][y] = 'X';
+
+            }
+
+        }
+    }
+}
+```
+
+See if you can cheat your way into activating debug_mode!
+
+```c
+int main(){
+
+    // Cheat/Debug mode for developer
+    int debug_mode = 0;
+
+    // Game functions
+    char board[3][3];
+
+    if(!debug_mode){
+
+    }
+    else {
+	// We get the flag here!
+        printf("Hi admin! Here's the flag: ACSI{XXXXXXXXXXXXXXXXXXX}\n");
+
+    }
+    return 0;
+}
+```

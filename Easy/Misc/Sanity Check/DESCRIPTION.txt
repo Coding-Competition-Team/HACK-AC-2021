@@ -1,0 +1,5 @@
+Welcome to HACK@AC
+
+Do make sure to read through the rules, join the discord, and have a fun CTF. 
+
+Flag: ACSI{h3ll0_d4rkness_my_0ld_fr1end}

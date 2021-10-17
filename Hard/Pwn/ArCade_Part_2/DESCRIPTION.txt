@@ -1,0 +1,27 @@
+Winning the game is no fun! Let's take control of the scoring server :D.
+
+`ssh play@178.128.85.118 -p 31337`
+
+Mirror:
+
+`ssh play@165.232.173.222 -p 31337`
+
+Author: Lord_Idiot
+
+Note: The bug is a buffer overflow! Try to make use of the debug_mode we have in the previous part of the challenge.
+
+
+You can run any shellcode if you become a developer.
+
+```c
+void developer_code(){
+    char * hex_code = malloc(0x1000);
+    void (*shellcode)() = mmap(0, 0x1000,
+                               PROT_READ | PROT_WRITE | PROT_EXEC,
+                               MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);
+    read(STDIN_FILENO, hex_code, 0x1000);
+    hex_decode(hex_code, (char*)shellcode, 0x1000);
+    printf("Running your developer codes now.\n");
+    shellcode();
+}
+```

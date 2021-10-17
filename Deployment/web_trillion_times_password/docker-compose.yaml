@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+    web-server:
+        build: 
+            context: ./
+        restart: always
+        volumes:
+            - "./html/:/var/www/html"
+        ports:
+            - "80:80"
+    database:
+        container_name: database
+        build:
+            context: ./database
+        restart: always
+        environment: 
+            MYSQL_ROOT_PASSWORD: "n0%bzblWjedhUaa"
+            MYSQL_ROOT_HOST: '%'
+        ports:
+            - "3306:3306"

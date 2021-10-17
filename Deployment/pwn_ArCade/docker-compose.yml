@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  game:
+    build: ./game
+    ports:
+      - "31337:22"
+    read_only: true
+  logging:
+    build: ./logging

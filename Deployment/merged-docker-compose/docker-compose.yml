@@ -1,0 +1,49 @@
+version: '3.7'
+
+x-pwn:
+    &pwn
+    cap_drop:
+        - all
+    cap_add:
+        - chown
+        - setuid
+        - setgid
+        - sys_admin
+    security_opt:
+        - apparmor=unconfined
+        - seccomp=unconfined
+
+services:
+    pwn-warmup:
+        << : *pwn
+        build: ./Pwn-Warmup
+        ports:
+            - "1337:5000"
+    buffer-overflow-school:
+        << : *pwn
+        build: ./Pwn-Bof-School
+        ports:
+            - "1339:5000"
+    rop-school-go-brr:
+        << : *pwn
+        build: ./Pwn-Rop-School
+        ports:
+            - "1340:5000"
+    canary-pie-everything:
+        << : *pwn
+        build: ./Pwn-What-You-Gonna-Do-Now-Huh
+        ports:
+            - "1341:5000"
+    otp-encryptor:
+        build: ./Crypto-OTP-Encryptor
+        ports:
+            - "1342:3000"
+    netcat:
+        build: ./Misc-Netcat
+        ports:
+            - "1343:3000"
+    web-basics:
+        build: ./Web-Basics
+        ports:
+            - "80:80"
+

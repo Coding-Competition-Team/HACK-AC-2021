@@ -1,0 +1,8 @@
+UsePAM no
+
+Match User play
+	PasswordAuthentication yes
+	PermitEmptyPasswords yes
+	ChrootDirectory /
+	ForceCommand /home/play/ttt
+	DisableForwarding yes

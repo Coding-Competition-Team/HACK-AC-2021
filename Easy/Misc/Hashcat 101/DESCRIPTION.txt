@@ -1,0 +1,5 @@
+Combo x2! Help me beat up this MD5 please? Take this rockyou.txt with you!
+
+The flag format is ACSI{password}
+
+Author: Lucas

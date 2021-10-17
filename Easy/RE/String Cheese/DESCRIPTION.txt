@@ -1,0 +1,5 @@
+Zachary the Zebra loves cheese, so he wrote a program to print out a random cheese.
+Zebras however hate some cheese, so he prevented the program from printing that cheese.
+However someone said that the forbidden cheese (aka the flag) is still hidden in the program data???
+
+Author: Elijah
