@@ -29,11 +29,6 @@ services:
         build: ./Pwn-Rop-School
         ports:
             - "1340:5000"
-    canary-pie-everything:
-        << : *pwn
-        build: ./Pwn-What-You-Gonna-Do-Now-Huh
-        ports:
-            - "1341:5000"
     otp-encryptor:
         build: ./Crypto-OTP-Encryptor
         ports:

@@ -1,1 +1,0 @@
-It should be noted that this challenge was compiled on Ubuntu 18.04. Additionally, all offsets found in the exploit script was calculated from GDB
