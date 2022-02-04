@@ -2,7 +2,7 @@
 
 The challenges were made by the following contributors:
 
-* [dbsqwerty](https://github.com/dbsqwerty/)
+* [dbsqwerty123](https://github.com/dbsqwerty123/)
 * [Ocean](https://github.com/oceankoh)
 * [MiloTruck](https://github.com/MiloTruck)
 * [Wealthyturtle](https://github.com/Wealthyturtle)
