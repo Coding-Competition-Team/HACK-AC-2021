@@ -2,8 +2,7 @@
 
 The challenges were made by the following contributors:
 
-* [dbsqwerty123](https://github.com/dbsqwerty123/)
-* [Ocean](https://github.com/oceankoh)
+* [Oceankoh](https://github.com/oceankoh)
 * [MiloTruck](https://github.com/MiloTruck)
 * [Wealthyturtle](https://github.com/Wealthyturtle)
 * [Lord_Idiot](https://github.com/lordidiot)
@@ -15,6 +14,7 @@ The challenges were made by the following contributors:
 * [Takyo](https://github.com/Tak-yo)
 * [W4llbot](https://github.com/W4llbot)
 * [Eldoofus](https://github.com/Eldoofus)
+* [beanbeah](https://github.com/beanbeah)
 
 Deployment files are in the deployment folder. Challenges are sorted into folders based on category and difficulty. All flags have the format of `ACSI{}`
 
